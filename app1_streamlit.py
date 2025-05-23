@@ -1,12 +1,12 @@
 import streamlit as st
 import pyodbc
 import pandas as pd
-st.header("Hello World")
+st.header("Hello World 5")
 
-st.text_input("Enter your name")
+texto = st.text_input("Enter your name")
 
 def test():
-    print("test")
+    st.write("Hello", texto)
 
 st.button("Submit", on_click=test)
 
