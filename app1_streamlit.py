@@ -10,5 +10,7 @@ def test():
 
 st.button("Submit", on_click=test)
 
+st.markdown("## This is a markdown")
+
 SECRETO = 123
 
